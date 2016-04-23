@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+      Today at the Union
+      Author: Sachidananda R Naik
+      Date:   04-22-2016
+      
+   -->
+   
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="functions.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+         
+         /**
+          * Display the dialy schedule in an inline frame.
+          * Daily schedules are stored in the files sunday.
+          * Htm through saturday.htm.
+          */
+          
+         var date = showDate();
+         var dayOfTheYear = dayNumber();
+         
+         alert(weekDayName);
+         document.write("<iframe src = " + "'"+ weekDayName +  "'" +   "</iframe>")	
+         </script>
+</body>
+</html>
